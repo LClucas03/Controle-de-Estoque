@@ -1,0 +1,44 @@
+# Sistema de Controle de Estoque
+
+## Descrição
+
+Este projeto é um sistema para gerenciar o controle de estoque, incluindo fornecedores, produtos e pedidos de reposição. O sistema utiliza um banco de dados SQL para armazenar e manipular informações relacionadas ao estoque.
+
+## Estrutura do Banco de Dados
+
+- **Fornecedores**: Armazena informações sobre os fornecedores.
+- **Produtos**: Armazena informações sobre os produtos, incluindo a quantidade em estoque e o preço.
+- **PedidosReposicao**: Armazena informações sobre os pedidos de reposição de produtos.
+
+## Scripts
+
+1. **Criação do Banco de Dados e Tabelas**:
+   - `create_database.sql`: Script para criar o banco de dados e as tabelas necessárias.
+
+2. **Inserção de Dados**:
+   - `insert_data.sql`: Script para inserir dados iniciais nas tabelas.
+
+3. **Consultas**:
+   - `queries.sql`: Script para executar consultas SQL e visualizar dados.
+
+4. **Atualizações e Exclusões**:
+   - `update_delete.sql`: Script para atualizar e excluir dados existentes.
+
+## Uso
+
+1. Execute o script `create_database.sql` para criar o banco de dados e as tabelas.
+2. Execute o script `insert_data.sql` para inserir dados iniciais nas tabelas.
+3. Execute o script `queries.sql` para realizar consultas SQL e visualizar dados.
+4. Execute o script `update_delete.sql` para atualizar e excluir dados conforme necessário.
+
+## Requisitos
+
+- MySQL ou outro sistema de gerenciamento de banco de dados SQL compatível.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com melhorias e correções. Crie uma issue ou um pull request para sugestões e mudanças.
+
+## Licença
+
+Este projeto é de código aberto e licenciado sob a [MIT License](LICENSE).
