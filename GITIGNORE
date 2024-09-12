@@ -1,0 +1,11 @@
+# Arquivos de banco de dados
+*.sql
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
